@@ -8,6 +8,7 @@ nav {
     height: 50px;
     background-color: #ffffff;
     line-height: 50px;
+    text-align: center;
     
 }
 
@@ -16,7 +17,30 @@ nav {
     color: #022a4d;
     text-decoration: none;
     margin: 0px 75px;
-    text-align: center;
+}
+
+.meu a:hover {
+    opacity: .5;
+}
+
+input[type=text]{
+    width: 400px;
+    height: 25px;
+    border-style: double ;
+}
+
+input[type=submit]{
+    width: 200px;
+    height: 40px;
+    margin: 10px 300px;
+    background-color: #ffffff;
+}
+textarea{
+    width: 810px;
+    height: 250px;
+    margin-top: 10px;
+    resize: none;
+
 }
 
 
@@ -36,6 +60,16 @@ nav {
     border-radius: 30px;
     margin-left: 50px;
     max-width: 1300px  
+}
+
+#contato {
+    background-color: #ffffff !important;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 50px;
+    max-width: 1300px 
 }
 
 h1{
@@ -66,7 +100,7 @@ p {
  footer {
     background-color: #ffffff;
     text-align: center;
-    padding: 6px;
+    padding: 20px;
  }
 
  footer a{
