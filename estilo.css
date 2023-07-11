@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,100;1,200;1,400;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
     margin: 0;
     background-color: #ecdbcc !important;
@@ -96,8 +102,7 @@ e {
 
 p {
     font-size: 15px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} 
+}
 
  footer {
     background-color: #ffffff;
