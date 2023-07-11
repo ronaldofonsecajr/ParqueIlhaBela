@@ -9,6 +9,9 @@ nav {
     background-color: #ffffff;
     line-height: 50px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
     
 }
 
@@ -56,9 +59,8 @@ textarea{
 .big {
     background-color: #ffffff !important;
     padding: 20px;
-    margin: 50px;
+    margin: 80px;
     border-radius: 30px;
-    margin-left: 50px;
     max-width: 1300px  
 }
 
@@ -88,8 +90,8 @@ e {
 }
 
  img {
-    width: 1190px;
-    height: 850px;
+    width: 1150px;
+    height: 950px;
  }
 
 p {
